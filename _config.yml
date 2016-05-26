@@ -1,0 +1,13 @@
+# Site settings
+title: Respect My $TERM
+tag_text: Respect My $TERM
+description: Use terminfo, tputs $TERM stop hardcoding escape sequences in your programs and scripts
+url: "http://respectmyterm.com"
+baseurl: ""
+
+font-awesome-include: false # make this false if you don't need font-awesome
+
+# Build settings
+markdown: kramdown
+
+exclude: ["README.md"]
