@@ -16,7 +16,7 @@ body {
 
 @media (min-width: 30rem) {
   body {
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: 2rem;
   margin-bottom: 0rem;
   font-weight: bold;
   margin-left: -2rem;
@@ -54,7 +54,7 @@ h1 {
 
 @media (min-width: 30rem) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 0rem;
   }
 }
@@ -210,7 +210,7 @@ pre > code {
 
 @media (max-width: 635px) {
 .sharing {
- font-size: 85%;
+ font-size: 100%;
  }
 }
 
@@ -274,6 +274,7 @@ pre > code {
   display: block;
   margin: 0px auto 2rem auto;
   text-align: center;
+  max-width: 100%;
 }
 .rmt-header img {
   margin: 0 .5rem;
