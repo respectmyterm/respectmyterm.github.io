@@ -266,4 +266,16 @@ pre > code {
 .sharing-buttons {
 	width: 100%;
 }
+
+.rmt-title {
+  text-align: center;
+}
+.rmt-header {
+  display: block;
+  margin: 0px auto 2rem auto;
+  text-align: center;
+}
+.rmt-header img {
+  margin: 0 .5rem;
+  display: inline;
 }
