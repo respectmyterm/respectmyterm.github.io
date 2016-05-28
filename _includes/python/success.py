@@ -1,5 +1,4 @@
-from __future__ import print_function
-import curses
+import curses, sys
 
 def success(s):
     colors = curses.tigetstr('setaf')
@@ -7,7 +6,7 @@ def success(s):
     def color(n):
         return curses.tparm(colors, n) if colors else ''
 
-    print(color(2) + s + color(0))
+    sys.stdout.write(color(2) + s + color(0))
 
 curses.setupterm()
-success('Hello, World!')
+success('Hello, World!\n')

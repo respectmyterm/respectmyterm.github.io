@@ -15,7 +15,8 @@ void success(const char *fmt, ...) {
         printf("%s", tparm(colors, 0));
 }
 
-int main(void) {
+int main() {
     setupterm(NULL, 1, 0);
     success("Hello, World!\n");
+    return 0;
 }
