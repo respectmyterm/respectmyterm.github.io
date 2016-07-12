@@ -45,6 +45,9 @@ Your terminal environments deserve respect, too!
 
 List of commands and flags to turn off color with various tools:
 
+npm:
+
 ```
 npm config set color false
+npm config set progress false
 ```
