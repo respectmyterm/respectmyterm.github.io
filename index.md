@@ -40,3 +40,11 @@ Your terminal environments deserve respect, too!
 {% include sh/index.md %}
 {% include python/index.md %}
 {% include c/index.md %}
+
+#### Work arounds
+
+List of commands and flags to turn off color with various tools:
+
+```
+npm config set color false
+```
