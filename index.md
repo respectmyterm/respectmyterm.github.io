@@ -51,3 +51,7 @@ npm:
 npm config set color false
 npm config set progress false
 ```
+
+#### One last point...
+
+Let your IDE colorize...
