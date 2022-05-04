@@ -2,7 +2,7 @@
 title: Respect My $TERM
 tag_text: Respect My $TERM
 description: Use terminfo, tputs $TERM stop hardcoding escape sequences in your programs and scripts
-url: "http://respectmyterm.com"
+url: "https://respectmyterm.github.io"
 baseurl: ""
 
 font-awesome-include: false # make this false if you don't need font-awesome
